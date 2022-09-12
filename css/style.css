@@ -25,6 +25,9 @@ html {
     padding-right: 40px;
 }
 
+a {
+    color: #0000ee;
+}
 img {
     max-width: 100%;
 }
