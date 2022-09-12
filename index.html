@@ -33,7 +33,7 @@
                         <li><a href="">Supporto</a></li>
                         <li><a href="">Contatta L'ufficio vendite</a></li>
                         <li><a href="">Accedi</a></li>
-                        <li><a href=""><span class="button">Inizia</span></a></li>
+                        <li><a href=""><button class="button-blue bt-small"> <a href="">Inizia</a></button></a></li>
                     </ul>
                 </div>
                 
@@ -45,14 +45,20 @@
     <main>
 
         <!-- first section  -->
-        <section class="bg-lghblue">
+        <section class="bg-lghblue maxheight">
             <div class="main-container">
-                <h1>
-                Lorem cere mollitia quam deserunt iste obcaecati exercie?</h1>
+                <h1>Tutto cio che ti serve per il lavoro, in un unico posto</h1>
 
                 <div class="row flexbox">
-                    <div class="ct-col"></div>
-                    <div class="ct-col-big"></div>
+                    <div class="ct-col">
+                        <p>Finalmente tutti i tuoi stumenti, contenuti e collaboratori sono accessibi dallo stesso posto. Dropbox Business e piu di uno spazio di archivazione sicuro: e un modo intelligente e integrato per ottimizare il flusso di lavoro esistente</p>
+                        <button class="button-blue bt-large">Inizia la tua prova gratuita</button>
+                        <p class="mg-top">Anulla un qualsiasi momento</p>
+                        <span><i class="fa-solid fa-arrow-down"></i></span>
+                    </div>
+                    <div class="ct-col-big">
+                        <img class="tricky" src="img/jumbo.png" alt="">
+                    </div>
                 </div>
             </div>
         </section>
@@ -60,14 +66,121 @@
         <!-- second section  -->
         <section>
             <div class="container">
-                <h2>Lorem ipsum dolor sit amet conserferendit laborum, ipsam iusto?</h2>
-                <input type="radio">
-                <div class="row flexbox">
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
+                <h2>Trova il piano business che fa per te</h2>
+
+                <!-- radio  -->
+                <input type="radio" name="fatturazione" value="mensile">
+                <label for="mensile">Fatturazione mensile</label>
+                <input type="radio" name="fatturazione" value="annuale">
+                <label for="annuale">Fatturazione annuale</label>
+
+                <!-- row -->
+                <div class="row flexbox space-between">
+
+                    <!-- first col  -->
+                    <div class="col">
+                        <div class="card-top">
+                            <span><i class="fa-solid fa-user"></i> Singolo</span>
+                        </div>
+
+                        <nav class="card-description">
+                            <ul>
+                                <li><h3>Professional</h3></li>
+                                <li><h5>€ 12.00</h5></li>
+                                <li><div class="color-gray padding-bt">/mese</div></li>
+                                <li><i class="fa-solid fa-user"></i> 1 Utente</li>
+                                <li><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
+                                <li class="padding-bt"><i class="fa-solid fa-share-nodes"></i> Funzioni di produttivita premium e condivisione file semplice e sicura </li>
+                                <li><button class="button-blue bt-large"> Prova gratis per 30 giorni</button></li>
+                                <li><span class="underline">oppure</span> <a href="">aquista ora</a></li>
+                            </ul>
+
+                            <ul class="padding-tp">
+                                <li><h4>Punti salienti del piano</h4></li>
+                                <li><i class="fa-solid fa-check color-blue"></i> Invia file fino a 100 GB con Dropbox Transfert</li>
+                                <li><i class="fa-solid fa-check color-blue"></i> Cartelle offline su dispositivi mobili</li>
+                            </ul>   
+                        </nav>
+                    </div>
+
+                    <!-- second col  -->
+                    <div class="col">
+                        <div class="card-top">
+                            <span><i class="fa-solid fa-users"></i> Team</span>
+                        </div>
+
+                        <nav class="card-description">
+                            <ul>
+                                <li><h3>Professional</h3></li>
+                                <li><h4>€ 12.00</h4></li>
+                                <li><div class="color-gray padding-bt">/mese</div></li>
+                                <li><i class="fa-solid fa-users"></i></i> 3 o piu utenti</li>
+                                <li><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
+                                <li class="padding-bt"><i class="fa-solid fa-share-nodes"></i> Funzioni di produttivita premium e condivisione file semplice e sicura </li>
+                                <li><button class="button-blue bt-large"> Prova gratis per 30 giorni</button></li>
+                                <li><span class="underline">oppure</span> <a href="">aquista ora</a></li>
+                            </ul>
+
+                            <ul class="padding-tp">
+                                <li><h4>Punti salienti del piano</h4></li>
+                                <li><i class="fa-solid fa-check color-blue"></i> Nessun limite di spazio per i file </li>
+                                <li><i class="fa-solid fa-check color-blue"></i> Cartelle offline su dispositivi mobili</li>
+                                <li><i class="fa-solid fa-check color-blue"></i> Risparmio del 50% rispetto alle iscrizioni singole</li>
+                                <li><i class="fa-solid fa-check color-blue"></i> Possibilita di inserire nuovi membri del team</li>
+                                <li><i class="fa-solid fa-check color-blue"></i> Gestione dei permessi in base ai ruoli</li>
+                            </ul>  
+                        </nav>
+                    </div>
+
+                        <!-- third col  -->
+                    <div class="col">
+                        <div class="card-top">
+                            <span><i class="fa-solid fa-user"></i> Azienda</span>
+                        </div>
+
+                        <nav class="card-description">
+                            <ul>
+                                <li><h3>Professional</h3></li>
+                                <li><h5>€ 12.00</h5></li>
+                                <li><div class="color-gray padding-bt">/mese</div></li>
+                                <li><i class="fa-solid fa-user"></i> 10 o piu utenti</li>
+                                <li><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
+                                <li class="padding-bt"><i class="fa-solid fa-share-nodes"></i> Funzioni di produttivita premium e condivisione file semplice e sicura </li>
+                                <li><button class="button-blue bt-large" id="button-space"><a href=""> Contattaci</a></button></li>
+                                <li><span class="underline">oppure</span> <a href="">aquista ora</a></li>
+                            </ul>
+
+                            <ul class="padding-tp">
+                                <li><h4>Punti salienti del piano</h4></li>
+                                <li><i class="fa-solid fa-check color-blue"></i> Cartelle offline su dispositivi mobili </li>
+                                <li><i class="fa-solid fa-check color-blue"></i> Servizio assisteza 24/h</li>
+                                <li><i class="fa-solid fa-check color-blue"></i> Possibilita di personalizzazione totale</li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-                <div class="col-bottom"></div>
+
+                <!-- row bottom  -->
+                <div class="col-bottom mg-top">
+
+                    <div class="card-top">
+                        <span><i class="fa-solid fa-building"></i> Team</span>
+                    </div>
+
+                    <div class="card-bottom flexbox">
+                        <div class="bottom-left">
+                            <h3>Eneterprise</h3>
+                            <h5 class="padding-bt">Contatta L'ufficio vendie per i prezzi</h5>
+                            <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione si qualsiasi scala.</p>
+                        </div>
+                        
+                        <div class="bottom-right"> 
+                            <button class="button-blue bt-large"><a href="">Contatta L'ufficio vendite</a></button>
+
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
 
