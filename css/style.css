@@ -185,11 +185,12 @@ h2 {
 .col {
     width: calc(100% / 3 - 40px);
     border: 1px solid #d0d0d3;
-    
+
 }
 
 .col-bottom {
     width: 100%;
+    border: 1px solid #d0d0d3;
 }
 
 .card-top {
