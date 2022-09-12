@@ -86,8 +86,6 @@ ul {
     background-color: #ff1c1c;
 }
 
-
-
 /* buttons  */
 button {
     border: none;
@@ -330,10 +328,33 @@ border: none;
 }
 
 .action-col {
-    background-color: green;
     width: 100%;
+    line-height: 100px;
+    border-bottom: 1px solid #999999;
+    overflow: hidden;
     height: 100px;
-    border: 1px solid black;
+}
+
+.arrow-down {
+
+    padding: 0 30px;
+}
+
+.faq {
+    width: 75%;
+    overflow: hidden;
+}
+
+.faq p {
+    line-height: 1rem;
+}
+
+.action-col:hover {
+   height: 200px;
+}
+
+.bd-top {
+    border-top: 1px solid #999999;
 }
 
 .mg .bt-large {
