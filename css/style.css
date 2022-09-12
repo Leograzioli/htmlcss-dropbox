@@ -227,6 +227,14 @@ h2 {
     font-size: 1.4rem;
 }
 
+.card-txt {
+    line-height: 1.4rem;
+}
+.card-txt h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
 .no-border .col {
     border: none;
 }
