@@ -17,6 +17,16 @@ html {
     flex-wrap: wrap;
 }
 
+img {
+    max-width: 100%;
+}
+
+
+li a{
+    text-decoration: none;
+    color: black    ;
+}
+
 .bg-lghblue {
     background-color: #b4d0e7;
 }
@@ -24,6 +34,14 @@ html {
 .container {
     width: 55%;
     margin: 0 auto;
+}
+/* buttons  */
+
+.button {
+    background-color: #0061ff;
+    color: white;
+    padding: 10px 20px;
+
 }
 
 /* header navigation  */
@@ -36,19 +54,25 @@ header {
     background-color: white;
 }
 
+header ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
 .header-ct {
-    line-height: 80px;
+    height: 80px;
+    align-items: center;
 }
 
 nav {
     width: 100%;
     justify-content: space-between;
     line-height: 80px;
-}
-
-.header-nav {
-    background-color: yellow;
-    width: 300px;
 }
 
 .header-logo {
