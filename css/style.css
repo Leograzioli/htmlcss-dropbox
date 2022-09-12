@@ -7,3 +7,91 @@
 html {
     font-family: sans-serif;
 }
+
+/* comumn */
+.flexbox {
+    display: flex;  
+}
+
+.bg-lghblue {
+    background-color: #b4d0e7;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* header navigation  */
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    background-color: white;
+}
+
+.header-ct {
+    line-height: 80px;
+}
+
+nav {
+    width: 100%;
+    justify-content: space-between;
+    line-height: 80px;
+}
+
+.header-nav {
+    background-color: yellow;
+    width: 300px;
+}
+
+.header-logo {
+    width: 150px;
+}
+
+/* MAIN  */
+/* jumbotron content  */
+main {
+    margin-top: 80px;
+}
+.main-container {
+    margin: 0 auto;
+    width: 70%;
+    padding-bottom: 40px;
+}
+
+.main-container h1 {
+    padding: 40px 0;
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.mainct-col {
+    background-color: red;
+    width: 30%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.mainct-col-img {
+    background-color: blue;
+    width: 70%;
+}
+
+/* other sections content  */
+
+.col {
+    background-color: red;
+    width: calc(100% / 3);
+    border: 1px solid black;
+    height: 800px;
+}
+
+.col-bottom {
+    margin: 20px 0 60px;
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
