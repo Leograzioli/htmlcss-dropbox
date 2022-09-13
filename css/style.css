@@ -73,7 +73,7 @@ ul {
 
 .bg-green {
     background-color: #a2d39b;
-    border: 15px solid #d1e9cd;
+    border: 1.2rem solid #d1e9cd;
 }
 
 .bg-bordeaux {
@@ -156,6 +156,10 @@ header ul {
 
 header ul li {
     margin: 0 15px;
+}
+
+header li:hover {
+    border-bottom: 1px solid gray;
 }
 
 header li a{
