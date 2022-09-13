@@ -61,6 +61,10 @@ ul {
 .color-gray {
     color: #a0a0a0;
 }
+.wd100 a {
+    width: 100%;
+    text-align: center;
+}
 
 /* BG COLLOR  */
 .bg-lghblue {
@@ -69,6 +73,7 @@ ul {
 
 .bg-white a {
     background-color: white;
+    color: black;
 }
 
 .bg-green {
@@ -101,16 +106,8 @@ ul {
 }
 
 /* buttons  */
-
-
-button {
-    border: none;
+.button a {
     display: inline-block;
-}
-
-button a {
-    display: inline-block;
-    color: inherit;
     text-decoration: none;
 }
 
@@ -124,17 +121,13 @@ button a {
 }
 
 .bt-small a{
+    display: inline;
     padding: 1rem 1.5rem; 
     color: white;
 }
 
 .bt-large a {
     padding: 1rem 2rem;
-}
-
-#button-space {
-    width: 100%;
-    background-color: #0061ff;
 }
 
 #button-space a {
@@ -145,6 +138,7 @@ button a {
 
 .bt-special a{
     border: 1px solid black;
+    color: black;
 }
 
 /* HEADER NAVIGATION */
@@ -321,7 +315,7 @@ main {
 }
 
 .bottom-left {
-    width: 75%;
+    width: 70%;
 }
 
 .bottom-left h3 {
