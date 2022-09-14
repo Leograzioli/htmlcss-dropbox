@@ -272,11 +272,23 @@ main {
 .card-description li {
     line-height: 1.2rem;
     margin: 15px 0;
+}
+
+.card-description h3 {
+    font-size: 1.5rem;
+}
+
+.card-description h5 {
+    margin-bottom: 20px;
+}
+
+.card-description {
     font-size: 0.9rem;
 }
 
-.card-description li h3 {
-    font-size: 1.5rem;
+.card-description .button {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
 }
 
 .card-bottom {
