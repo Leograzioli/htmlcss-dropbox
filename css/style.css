@@ -5,7 +5,7 @@
 }
 
 html {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* comumn */
@@ -208,6 +208,7 @@ main {
 }
 
 .ct-col p {
+    margin-top: 25px;
     padding-right: 20px;
     padding-bottom: 60px;
     line-height: 1.4rem;
@@ -338,19 +339,23 @@ main {
     width: calc(100% / 3);
 }
 
-.outside-square img{
+.outside-square img {
     filter: invert(1);
+    width: 150px;
 }
 
 .center-square {
     width: calc(100% / 3);
-    padding: 60px;
+    padding: 60px 60px 100px;
     background-color: #f5f5f5;
 }
 
 .square {
-    padding: 120px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: calc(100% / 2);
+    height: calc(100% / 2);
 }
 
 .square-img {
