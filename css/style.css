@@ -251,6 +251,7 @@ input {
     border: 2px solid lightgrey;
     width: 14px;
     height: 14px;
+    margin-right: 5px;
 }
 
 input:checked {
