@@ -245,7 +245,6 @@ main {
 /* RADIO BUTTON  */
 input {
     margin-top: 80px;
-    -webkit-appearance: none;
     appearance: none;
     border-radius: 50%;
     background: white;
