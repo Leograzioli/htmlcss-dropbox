@@ -89,11 +89,11 @@ ul {
     background-color: #0093ce;
 }
 
-.bg-lgtblue{
+.bg-lgtblue {
     background-color: #b4d0e7;
 }
 
-.bg-hardblue{
+.bg-hardblue {
     background-color: #0d2481;
 }
 
@@ -136,7 +136,7 @@ ul {
     /* padding: 10px 5rem; */
 }
 
-.bt-special a{
+.bt-special a {
     border: 1px solid black;
     color: black;
 }
@@ -342,7 +342,6 @@ main {
 }
 .outside-square {
     width: calc(100% / 3);
-
 }
 
 .outside-square img{
