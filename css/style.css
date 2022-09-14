@@ -144,7 +144,7 @@ header {
     height: 80px;
     background-color: white;
     z-index: 999;
-    border-bottom: 1px solid #d0d0d3;
+    border-bottom: 1px solid #d0d0d3;  
 }
 
 header ul {
@@ -155,8 +155,23 @@ header ul li {
     margin: 0 15px;
 }
 
-header li:hover {
+header .hover-menu:hover {
+    display: block;
     border-bottom: 1px solid gray;
+    height: 160px;
+    background-color: white;
+}
+
+.hover-menu:hover p{
+    display: block;
+    line-height: normal;
+    margin: 5px 0;
+    text-align: center;
+    
+}
+
+.hover-menu p {
+    display: none;
 }
 
 header li a{
@@ -167,6 +182,7 @@ header li a{
 .header-ct {
     height: 80px;
 }
+
 
 header nav {
     width: 100%;
