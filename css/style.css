@@ -393,6 +393,7 @@ input:checked {
     width: calc(100% / 3);
     padding: 60px 60px 100px;
     background-color: #f5f5f5;
+    overflow-y: auto;
 }
 
 .square {
@@ -404,7 +405,7 @@ input:checked {
 }
 
 .square-img {
-    width: 300px;
+    max-width: 300px;
     margin-bottom: 40px;
 }
 
