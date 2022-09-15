@@ -249,14 +249,15 @@ input {
     border-radius: 50%;
     background: white;
     border: 2px solid lightgrey;
-    width: 14px;
-    height: 14px;
+    width: 16px;
+    height: 16px;
     margin-right: 5px;
+    vertical-align: sub;
 }
 
 input:checked {
-    outline: 4px solid #0061ff;
-    border: none
+    border: 4px solid #0061ff;
+    
 }
 
 .radiobt label{
